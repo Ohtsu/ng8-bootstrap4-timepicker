@@ -1,0 +1,23 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <br>
+  <br>
+  <br>
+  <br>
+<div class="row">
+  <div class="col-5">
+  </div>
+  <div class="col-2">
+    <p>This timepicker uses customized default values.</p>
+    <ngb-timepicker [(ngModel)]="time"></ngb-timepicker>
+    <pre>Selected time: {{time | json}}</pre>
+  </div>
+  <div class="col-5">
+  </div>
+</div>
+
+
+<router-outlet></router-outlet>
